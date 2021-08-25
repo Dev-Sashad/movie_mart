@@ -1,0 +1,48 @@
+name: movie_mart
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^3.0.0+1
+  provider:
+  ars_progress_dialog: ^0.1.2
+  after_init: ^0.1.2
+  shared_preferences:
+  fluttertoast: ^7.1.6
+  provider_architecture: ^1.0.3
+  cached_network_image: ^2.3.3
+  google_fonts:
+  firebase_core : ^0.5.0
+  firebase_auth: ^0.18.1+1
+  cloud_firestore: ^0.14.1+2
+  flutter_spinkit: "4.0.0"
+  cupertino_icons: ^0.1.3
+  shimmer: ^1.0.1
+  animated_splash_screen: ^1.1.0
+  flushbar: ^1.10.4
+  another_flushbar: ^1.10.18
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  
+  uses-material-design: true
+
+  
